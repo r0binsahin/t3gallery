@@ -1,7 +1,7 @@
 
 ## Todo 
 - [x] Make it deploy (vercel)
- - [ ] Scaffold basic ui with mock daha 
+ - [x] Scaffold basic ui with mock daha 
  - [ ] actually set up the database (vercel postgres)
 - [ ] attach the database to ui
 - [ ] add authentication (w/ clerk)
