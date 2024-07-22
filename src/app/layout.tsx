@@ -1,8 +1,8 @@
 import "~/styles/globals.css";
 import { Inter } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
+import "@uploadthing/react/styles.css";
 
-import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import { TopNav } from "./_components/TopNav";
 
