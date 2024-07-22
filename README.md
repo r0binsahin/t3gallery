@@ -5,7 +5,7 @@
   - [x] tidy upp build process
  - [x] actually set up the database (vercel postgres)
 - [x] attach the database to ui
-- [ ] add authentication (w/ clerk)
+- [x] add authentication (w/ clerk)
 - [ ] add image upplopad 
 - [ ] Error management  (w/ sentry)
 - [ ] routing/image page (parallel route)
