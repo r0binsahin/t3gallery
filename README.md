@@ -1,6 +1,6 @@
 
 ## Todo 
-- [ ] Make it deploy (vercel)
+- [x] Make it deploy (vercel)
  - [ ] Scaffold basic ui with mock daha 
  - [ ] actually set up the database (vercel postgres)
 - [ ] attach the database to ui
