@@ -8,8 +8,8 @@
 - [x] add authentication (w/ clerk)
 - [x] add image uppload 
 - [x] "taint" (server-only package)
-- [ x] use next image component
-- [ ] Error management  (w/ sentry)
+- [x] use next image component
+- [x] Error management  (w/ sentry package)
 - [ ] routing/image page (parallel route)
 -  [ ] delete button (w/server actions)
 - [ ] analitics (posthog)
