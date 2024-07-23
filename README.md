@@ -10,7 +10,7 @@
 - [x] "taint" (server-only package)
 - [x] use next image component
 - [x] Error management  (w/ sentry package)
-- [ ] routing/image page (parallel route)
+- [x] routing/image page (parallel route)
 -  [ ] delete button (w/server actions)
 - [ ] analitics (posthog)
 - [ ] ratelimiting (upstasg)
