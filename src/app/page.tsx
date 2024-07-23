@@ -1,5 +1,6 @@
 import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { getMyImages } from "~/server/queries";
+import Image from "next/image";
 
 //makes deployed site dynamicaly refetch the new data information
 export const dynamic = "force-dynamic";
@@ -10,8 +11,14 @@ const Images = async () => {
   return (
     <div className="flex flex-wrap gap-4">
       {images.map((image) => (
-        <div key={image.id} className="w-48">
-          <img src={image.url} alt="image" />
+        <div key={image.id} className="flex h-48 w-48 flex-col">
+          <Image
+            src={image.url}
+            alt={image.name}
+            style={{ objectFit: "contain" }}
+            width={480}
+            height={480}
+          />
           <p>{image.id}</p>
         </div>
       ))}
